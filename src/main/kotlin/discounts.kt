@@ -1,7 +1,7 @@
 fun main() {
 
     print("Введите сумму покупок: ")
-    val discount: Int = readln().toInt()
+    val discount: Int=readln().toInt()
     if (discount >= 1001 || discount <= 10000) {
         print("Для текущей суммы покупок предусмотрена стандартная скидка - 100 рублей.")
     } else if (discount >= 10001) {
@@ -11,7 +11,7 @@ fun main() {
     }
 
     println("\n Введите сумму покупок в прошлом месяце")
-    val discount1: Int = readln().toInt()
+    val discount1: Int=readln().toInt()
     if (discount1 > 0) {
         println("За покупки в прошлом месяце Вам полагается дополнительная скидка 1%")
     } else {
